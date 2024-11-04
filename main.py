@@ -24,7 +24,8 @@ if __name__ == '__main__':
     min_val = 1
     max_val = 100
 
-    module_path = os.path.abspath(r".\NumberGenerator\generator.py")
+    project_path = os.path.dirname(os.path.abspath(__file__))
+    module_path = os.path.join(project_path, r"NumberGenerator\generator.py")
     args = ["--min", str(min_val), "--max", str(max_val)]
 
     generator = Subprocessor(module_path, args, "Hi", "Shutdown")
