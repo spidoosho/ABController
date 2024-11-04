@@ -2,6 +2,10 @@
 
 Test task 2 for Next Generation Test Runner Internship.
 
+## How to use
+
+Since project does not use non-default libraries, there is no need for installing requirements. Just run `main.py` or import desired package.
+
 ## Structure
 
 1. `NumberGenerator` package is the Program A defined in the task. It implements class `Generator` which in `init`
